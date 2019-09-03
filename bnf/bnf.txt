@@ -1,0 +1,73 @@
+%programa%:: %sentencia%
+
+%sentencia%::= %sentenciaAsignacion% | %sentenciaIF% | %sentenciaWhile% | %sentenciaRetorno% | %sentenciaFor% | %sentencia%
+
+%sentenciaAsignacion%::= %variable% %igualdad% %expresion%
+
+%variable%::= %tipoDato% %cadena%
+
+%tipoDato%::= 'int' | 'float' | 'boolean' | 'string' |
+
+%cadena%::= %letra% | %cadena% %letra% | %cadena% %numero%
+
+%letra%::= %minusculas% | %mayusculas%
+
+%minusculas%::= a | b | c | d | e | f | g | h | i | j | k | l | m | n | ñ | o | p | q | r | s | t | u | v | w | x | y | z
+ 
+%mayusculas%::= A | B | C | D | E | F | G | H | I | J | K | L | M | N | Ñ | O | P | Q | R | S | T | U | V | W | X | Y | Z
+
+%numero%::=%digito% | %digito%%digito% 
+
+%digito%::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 
+
+%igualdad%::='='
+
+%expresion%::=%operacionAritmetica%  | %entero% | %cadena% 
+
+%operacionAritmetica%::= %suma% | %resta% | %multiplicacion% | %divicion% 
+
+%suma%::=%operando% '+' %operando%
+
+%suma%::=%operando% '-' %operando%
+
+%suma%::=%operando% '*' %operando%
+
+%suma%::=%operando% '/' %operando%
+
+%operando%::= %entero%
+
+%entero%::= %operadorUnario% %numero%
+
+%operadorUnario%::= '-' | '+'
+
+%operadorAritmetico%::= '+' | '-' | '*' | '/' 
+
+%sentenciaIF%::='if' %abrePrerentesis% %condicion% %cierraPrerentesis% %abreLLave% %sentencia%  %cierraLlave%
+
+%abrePrerentesis%::='('
+
+%cierraParentesis%::=')'
+
+%abreLLave%::= '{'
+
+%cierraLlave%::= '}'
+
+%condicion%::=%operacionComparacion% | %tipoBooleano%
+
+%operacionComparacion%::= %operando% %operadorLogico% %operando% | %cadena% %igualdad% %cadena%
+
+%operadorLogico%::= '' | '' | '' | '' | '=' | '!=' 
+
+%tipoBooleano%::='true' | 'false'
+
+%sentenciaWhile%::='while'%abrePrerentesis% %condicion% %cierraParentesis% %abreLLave% %sentencia% %cierraLlave%
+
+%sentenciaRetorno%::='Return'
+
+%sentenciaFor%::='For'%abrePrerentesis% %variable% %igualdad% %entero% ';' %variable% %operadorLogico% %entero% ';' %incremento%  %cierraParentesis% %abreLLave% %sentencia% %cierraLlave%
+
+%incremento%::=%variable% %igualdad% %variable% '+' entero | %variable% %igualdad% %variable% '+ %variable%
+
+
+
+
