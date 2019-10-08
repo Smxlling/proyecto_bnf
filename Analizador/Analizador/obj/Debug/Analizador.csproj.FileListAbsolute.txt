@@ -1,0 +1,9 @@
+c:\users\yelso\documents\visual studio 2015\Projects\Analizador\Analizador\bin\Debug\Analizador.exe.config
+c:\users\yelso\documents\visual studio 2015\Projects\Analizador\Analizador\bin\Debug\Analizador.exe
+c:\users\yelso\documents\visual studio 2015\Projects\Analizador\Analizador\bin\Debug\Analizador.pdb
+c:\users\yelso\documents\visual studio 2015\Projects\Analizador\Analizador\obj\Debug\Analizador.csprojResolveAssemblyReference.cache
+c:\users\yelso\documents\visual studio 2015\Projects\Analizador\Analizador\obj\Debug\Analizador.Form1.resources
+c:\users\yelso\documents\visual studio 2015\Projects\Analizador\Analizador\obj\Debug\Analizador.Properties.Resources.resources
+c:\users\yelso\documents\visual studio 2015\Projects\Analizador\Analizador\obj\Debug\Analizador.csproj.GenerateResource.Cache
+c:\users\yelso\documents\visual studio 2015\Projects\Analizador\Analizador\obj\Debug\Analizador.exe
+c:\users\yelso\documents\visual studio 2015\Projects\Analizador\Analizador\obj\Debug\Analizador.pdb
